@@ -31,6 +31,7 @@ public class LoginPageStepDefinitions {
     public void title_should_be(String title) {
         System.out.println("title :"+title);
         System.out.println("It should take you to title page");
+        System.out.println("new changes occured");
     }
 
 
