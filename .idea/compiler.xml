@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bookit-acceptance-tests" />
         <module name="bookitacceptancetests" />
+        <module name="BriteApp_Online10" />
       </profile>
     </annotationProcessing>
   </component>
