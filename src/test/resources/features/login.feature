@@ -1,18 +1,10 @@
-@login
+@wip
 Feature: login functionality
 
-  Scenario: teacher login
+  Scenario: manager login
     Given user on the login page
-    And I add another useless line
-    # use login info of a teacher
-    When user logs in using "myemail@hotmail.com" and "mysecurepassword"
-    Then homepage should be displayed
-    And title should be "homepage"
-    And there should be 44 menu options
+    When user logs in using "in_pos_manager2@info.com" and "jKtfgrs31"
+    Then inbox page should be displayed
+    And title should be "#Inbox - Odoo"
 
-    Scenario: team leader login
-      Given user on the login page
-      # use the login info of a team lead
-      When user logs in using "myemail@gmail.com" and "regularpassword"
-      Then homepage should be displayed
-      And title should be "homepage"
+
