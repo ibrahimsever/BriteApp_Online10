@@ -30,6 +30,7 @@ public class LoginPageStepDefinitions {
     @Then("title should be {string}")
     public void title_should_be(String title) {
         System.out.println("title :"+title);
+        System.out.println("It should take you to title page");
     }
 
 
