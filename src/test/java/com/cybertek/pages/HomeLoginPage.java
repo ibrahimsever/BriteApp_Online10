@@ -30,6 +30,9 @@ public class HomeLoginPage {
         @FindBy(xpath = "//button[@type='submit']")
         public WebElement loginButton;
 
+        @FindBy(id="db")
+        public WebElement selectedDatabase;
+
         @FindBy(xpath = "//p[@class='alert alert-danger']")
         public WebElement wrongCredentials;
 
