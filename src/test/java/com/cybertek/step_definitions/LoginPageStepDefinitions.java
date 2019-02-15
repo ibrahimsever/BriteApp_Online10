@@ -1,6 +1,7 @@
 package com.cybertek.step_definitions;
 
 import com.cybertek.pages.HomeLoginPage;
+
 import com.cybertek.utilities.ConfigurationReader;
 import com.cybertek.utilities.Driver;
 import com.cybertek.utilities.Pages;
@@ -9,8 +10,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class LoginPageStepDefinitions {
